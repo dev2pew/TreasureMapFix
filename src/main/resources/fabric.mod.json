@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "treasure_map_fix",
+  "version": "${version}",
+  "name": "Treasure Map Fix",
+  "description": "Backports a bounded buried-treasure map lookup workaround for Minecraft 1.21.8 and removes unresolved fake treasure maps from loot.",
+  "authors": ["lucky"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "mixins": [
+    "treasure_map_fix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "=1.21.8",
+    "java": ">=21"
+  }
+}
