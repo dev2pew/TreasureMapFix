@@ -1,5 +1,18 @@
 # Treasure Map Fix
 
+> Treasure Map Fix fixes a long-standing Minecraft issue where Buried Treasure Maps found in shipwrecks or ocean ruins can sometimes be broken.
+>
+> Normally, these maps should point to a nearby buried treasure. In some worlds, especially worlds with larger oceans or altered terrain generation, Minecraft can fail to find suitable buried treasure nearby. When this happens, the chest may contain an item named "Buried Treasure Map" that behaves like an ordinary empty map instead.
+>
+> This mod gives Minecraft more room to find the intended buried treasure. If no suitable treasure can be found, the broken map is removed instead of being given to the player under a misleading name.
+>
+> The mod does not change where buried treasure generates, increase the amount of treasure in the world, or modify existing terrain. Valid treasure maps continue to work normally.
+>
+> It can be added to existing worlds. Previously generated valid maps and buried treasure are not changed, while unopened loot chests can benefit from the fix when their contents are generated.
+>
+> This addresses the behavior reported in Mojang issue MC-218156, where exploration maps can be created without a valid destination.
+
+
 Server-side Fabric compatibility fix for Minecraft Java Edition 1.21.8.
 
 ## What the diagnostics established
